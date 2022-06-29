@@ -1,0 +1,15 @@
+name: The_Mario_Plugin
+version: 0.5-DEMO
+main: org.elton.plugin.TheMarioPlugin
+api-version: 1.16
+authors: [ Elton ]
+description: Adds a mario mode with mario features
+
+commands:
+  create:
+    description: create npc
+    usage: /<command>
+
+  givemario:
+    description: gives an item chosen from the mario plugin
+    usage: /<command> <player> <item> <amount>
